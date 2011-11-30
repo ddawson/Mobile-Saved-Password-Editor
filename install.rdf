@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF:RDF xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns="http://www.mozilla.org/2004/em-rdf#">
+  <RDF:Description about="urn:mozilla:install-manifest">
+    <id>mobilesavedpasswordeditor@daniel.dawson</id>
+    <type>2</type>
+    <name>Mobile Saved Password Editor</name>
+    <version>0.1a1</version>
+    <description>Create/edit saved passwords in Firefox Mobile (Fennec)</description>
+    <creator>Daniel Dawson &lt;ddawson@icehouse.net&gt;</creator>
+    
+    <optionsURL>chrome://mobilesavedpasswordeditor/content/preferences.xul</optionsURL>
+    <homepageURL>https://addons.mozilla.org/mobile-addon/mobile-saved-password-editor/</homepageURL>
+
+    <targetApplication>
+      <RDF:Description>
+        <id>{a23983c0-fd0e-11dc-95ff-0800200c9a66}</id> <!-- Fennec -->
+        <minVersion>4.0</minVersion>
+        <maxVersion>11.0a1</maxVersion>
+      </RDF:Description>
+    </targetApplication>
+  </RDF:Description>
+</RDF:RDF>
