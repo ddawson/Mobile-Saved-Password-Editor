@@ -1,5 +1,4 @@
-<!ENTITY showPassword.title "Show password?">
+<!ENTITY alwaysShowEditor.title "Always show editor">
+<!ENTITY alwaysShowEditor.description "Prompt for info to save">
+<!ENTITY showPassword.title "Show password">
 <!ENTITY showPassword.description "Every time editor opens">
-<!ENTITY showPassword_alwaysHide.label "Hide">
-<!ENTITY showPassword_alwaysShow.label "Show">
-<!ENTITY showPassword_rememberState.label "Remember">

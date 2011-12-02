@@ -15,7 +15,7 @@
     <targetApplication>
       <RDF:Description>
         <id>{a23983c0-fd0e-11dc-95ff-0800200c9a66}</id> <!-- Fennec -->
-        <minVersion>4.0</minVersion>
+        <minVersion>5.0</minVersion>
         <maxVersion>11.0a1</maxVersion>
       </RDF:Description>
     </targetApplication>

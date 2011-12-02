@@ -21,6 +21,9 @@
           "chrome://mobilesavedpasswordeditor/locale/preferences.dtd">
 
 <vbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <setting pref="extensions.mobilesavedpasswordeditor.alwaysshoweditor"
+           type="bool" title="&alwaysShowEditor.title;"
+           desc="&alwaysShowEditor.description;"/>
   <setting pref="extensions.mobilesavedpasswordeditor.showpassword"
            type="bool" title="&showPassword.title;"
            desc="&showPassword.description;"/>

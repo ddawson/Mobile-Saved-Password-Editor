@@ -25,20 +25,98 @@
   <script type="application/javascript"
           src="chrome://mobilesavedpasswordeditor/content/browserOverlay.js"/>
   <richlistbox id="context-commands">
-    <richlistitem id="save-password-info" class="context-command"
-                  type="mspe-form"
+    <richlistitem id="mobilesavedpasswordeditor-save-item"
+                  class="context-command" type="mspe-form"
                   onclick="MobileSavedPasswordEditor.saveLogin();">
       <label value="&savelogin.label;"/>
     </richlistitem>
-    <richlistitem id="edit-password-info" class="context-command"
-                  type="mspe-form"
+    <richlistitem id="mobilesavedpasswordeditor-edit-item"
+                  class="context-command" type="mspe-form"
                   onclick="MobileSavedPasswordEditor.editLogin();">
       <label value="&editlogin.label;"/>
     </richlistitem>
-    <richlistitem id="delete-password-info" class="context-command"
-                  type="mspe-form"
+    <richlistitem id="mobilesavedpasswordeditor-delete-item"
+                  class="context-command" type="mspe-form"
                   onclick="MobileSavedPasswordEditor.deleteLogin();">
       <label value="&deletelogin.label;"/>
     </richlistitem>
   </richlistbox>
+
+  <stack id="stack">
+    <hbox id="mobilesavedpasswordeditor-disambig-container"
+         class="context-block" hidden="true">
+      <vbox id="mobilesavedpasswordeditor-disambig-popup"
+            class="dialog-dark">
+        <hbox>
+          <label crop="center" flex="1" value="&chooseLogin.title;"/>
+        </hbox>
+        <richlistbox id="mobilesavedpasswordeditor-disambig-list"
+                     class="context-commands"
+                     onclick="MobileSavedPasswordEditor.hideDisambigList();"
+                     flex="1"/>
+      </vbox>
+    </hbox>
+
+    <box id="mobilesavedpasswordeditor-editor-container"
+         class="perm-modal-block" hidden="true">
+      <dialog id="mobilesavedpasswordeditor-editor-dialog" class="panel-dark">
+        <vbox class="prompt-header">
+          <description class="prompt-title" crop="center" flex="1">
+            &logininfo.title;
+          </description>
+          <separator class="prompt-line"/>
+        </vbox>
+
+        <scrollbox id="mobilesavedpasswordeditor-editor-form"
+                   class="prompt-message" orient="vertical" flex="1">
+          <vbox id="mobilesavedpasswordeditor-editor-upper-box"
+                hidden="true">
+            <label control="mobilesavedpasswordedtor-editor-hostname"
+                   value="&host.label;"/>
+            <textbox id="mobilesavedpasswordeditor-editor-hostname"
+                     class="prompt-edit" flex="1"/>
+            <label control="mobilesavedpasswordedtor-editor-formsubmiturl"
+                   value="&submitPrefix.label;"/>
+            <textbox id="mobilesavedpasswordeditor-editor-formsubmiturl"
+                     class="prompt-edit" flex="1"/>
+          </vbox>
+          <label control="mobilesavedpasswordedtor-editor-username"
+                 value="&username.label;"/>
+          <textbox id="mobilesavedpasswordeditor-editor-username"
+                   class="prompt-edit" flex="1"/>
+          <label control="mobilesavedpasswordedtor-editor-password"
+                 value="&password.label;"/>
+          <textbox id="mobilesavedpasswordeditor-editor-password"
+                   class="prompt-edit" type="password" flex="1"/>
+          <vbox id="mobilesavedpasswordeditor-editor-lower-box"
+                hidden="true">
+            <label control="mobilesavedpasswordedtor-editor-usernamefield"
+                   value="&usernameField.label;"/>
+            <textbox id="mobilesavedpasswordeditor-editor-usernamefield"
+                     class="prompt-edit" flex="1"/>
+            <label control="mobilesavedpasswordedtor-editor-passwordfield"
+                   value="&passwordField.label;"/>
+            <textbox id="mobilesavedpasswordeditor-editor-passwordfield"
+                     class="prompt-edit" flex="1"/>
+          </vbox>
+        </scrollbox>
+
+        <hbox class="prompt-buttons" pack="center">
+          <button id="mobilesavedpasswordeditor-editor-morebutton"
+                  class="prompt-button" label="&button_more.label;"
+                  oncommand="MobileSavedPasswordEditor.showMore();"/>
+          <button id="mobilesavedpasswordeditor-editor-lessbutton"
+                  class="prompt-button" hidden="true"
+                  label="&button_less.label;"
+                  oncommand="MobileSavedPasswordEditor.showLess();"/>
+          <button id="mobilesavedpasswordeditor-editor-okbutton"
+                  class="prompt-button" label="&button_ok.label;"
+                  oncommand="MobileSavedPasswordEditor.acceptDialog();"/>
+          <button id="mobilesavedpasswordeditor-editor-morebutton"
+                  class="prompt-button" label="&button_cancel.label;"
+                  oncommand="MobileSavedPasswordEditor.cancelDialog();"/>
+        </hbox>
+      </dialog>
+    </box>
+  </stack>
 </overlay>

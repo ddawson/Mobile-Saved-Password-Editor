@@ -1,3 +1,15 @@
 <!ENTITY savelogin.label "Save login info">
 <!ENTITY editlogin.label "Edit login info">
 <!ENTITY deletelogin.label "Delete login info">
+<!ENTITY chooseLogin.title "Choose login">
+<!ENTITY logininfo.title "Login info">
+<!ENTITY host.label "Host">
+<!ENTITY submitPrefix.label "Submit prefix">
+<!ENTITY username.label "Username">
+<!ENTITY password.label "Password">
+<!ENTITY usernameField.label "Username field name">
+<!ENTITY passwordField.label "Password field name">
+<!ENTITY button_more.label "More">
+<!ENTITY button_less.label "Less">
+<!ENTITY button_ok.label "OK">
+<!ENTITY button_cancel.label "Cancel">
