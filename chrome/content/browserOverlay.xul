@@ -58,7 +58,8 @@
     </hbox>
 
     <box id="mobilesavedpasswordeditor-editor-container"
-         class="perm-modal-block" hidden="true">
+         insertbefore="context-container" class="perm-modal-block"
+         hidden="true">
       <dialog id="mobilesavedpasswordeditor-editor-dialog" class="panel-dark">
         <vbox class="prompt-header">
           <description class="prompt-title" crop="center" flex="1">
