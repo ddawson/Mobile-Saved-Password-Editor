@@ -1,4 +1,5 @@
 content	mobilesavedpasswordeditor		chrome/content/
+skin	mobilesavedpasswordeditor	default	chrome/skin/
 locale	mobilesavedpasswordeditor	en-US	chrome/locale/en-US/
 
 overlay	chrome://browser/content/browser.xul chrome://mobilesavedpasswordeditor/content/browserOverlay.xul

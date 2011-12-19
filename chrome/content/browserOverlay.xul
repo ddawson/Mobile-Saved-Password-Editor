@@ -20,6 +20,9 @@
 <!DOCTYPE overlay SYSTEM
           "chrome://mobilesavedpasswordeditor/locale/browserOverlay.dtd">
 
+<?xml-stylesheet type="text/css"
+  href="chrome://mobilesavedpasswordeditor/skin/browserOverlay.css"?>
+
 <overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
          id="mobilesavedpasswordeditor-overlay">
   <script type="application/javascript"
@@ -47,7 +50,7 @@
          class="context-block" hidden="true">
       <vbox id="mobilesavedpasswordeditor-disambig-popup"
             class="dialog-dark">
-        <hbox>
+        <hbox id="mobilesavedpasswordeditor-disambig-title-box">
           <label crop="center" flex="1" value="&chooseLogin.title;"/>
         </hbox>
         <richlistbox id="mobilesavedpasswordeditor-disambig-list"
@@ -110,9 +113,11 @@
                   class="prompt-button" hidden="true"
                   label="&button_less.label;"
                   oncommand="MobileSavedPasswordEditor.showLess();"/>
+          <spacer flex="1"/>
           <button id="mobilesavedpasswordeditor-editor-okbutton"
                   class="prompt-button" label="&button_ok.label;"
                   oncommand="MobileSavedPasswordEditor.acceptDialog();"/>
+          <spacer flex="1"/>
           <button id="mobilesavedpasswordeditor-editor-morebutton"
                   class="prompt-button" label="&button_cancel.label;"
                   oncommand="MobileSavedPasswordEditor.cancelDialog();"/>
