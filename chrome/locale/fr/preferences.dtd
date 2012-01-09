@@ -1,0 +1,4 @@
+<!ENTITY alwaysShowEditor.title "Toujours afficher l'éditeur">
+<!ENTITY alwaysShowEditor.description "Suggérer la sauvegarde des informations">
+<!ENTITY showPassword.title "Afficher le mot de passe">
+<!ENTITY showPassword.description "à chaque ouverture de l'éditeur">

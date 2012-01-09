@@ -1,0 +1,4 @@
+<!ENTITY alwaysShowEditor.title "Visa alltid redigeraren">
+<!ENTITY alwaysShowEditor.description "Fråga om info skall sparas">
+<!ENTITY showPassword.title "Visa lösenord">
+<!ENTITY showPassword.description "Varje gång redigeraren öppnas">

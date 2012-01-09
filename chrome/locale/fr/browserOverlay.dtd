@@ -1,0 +1,15 @@
+<!ENTITY savelogin.label "Enregistrer les informations de connexion">
+<!ENTITY editlogin.label "Modifier les informations de connexion">
+<!ENTITY deletelogin.label "Supprimer les informations de connexion">
+<!ENTITY chooseLogin.title "Choisir le login">
+<!ENTITY logininfo.title "Informations de connexion">
+<!ENTITY host.label "Hôte">
+<!ENTITY submitPrefix.label "Soumettre un préfixe">
+<!ENTITY username.label "Nom d'utilisateur">
+<!ENTITY password.label "Mot de passe">
+<!ENTITY usernameField.label "Intitulé du champ nom d'utilisateur">
+<!ENTITY passwordField.label "Nom du champ de saisie du mot de passe">
+<!ENTITY button_more.label "Davantage">
+<!ENTITY button_less.label "Moins">
+<!ENTITY button_ok.label "OK">
+<!ENTITY button_cancel.label "Annuler">

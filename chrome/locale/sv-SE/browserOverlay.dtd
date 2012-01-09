@@ -1,0 +1,15 @@
+<!ENTITY savelogin.label "Spara inloggningsinfo">
+<!ENTITY editlogin.label "Redigera inloggningsinfo">
+<!ENTITY deletelogin.label "Ta bort inloggningsinfo">
+<!ENTITY chooseLogin.title "Välj inloggning">
+<!ENTITY logininfo.title "Inloggningsinfo">
+<!ENTITY host.label "Värd">
+<!ENTITY submitPrefix.label "Sändningsprefix">
+<!ENTITY username.label "Användarnamn">
+<!ENTITY password.label "Lösenord">
+<!ENTITY usernameField.label "Användarnamnfältets namn">
+<!ENTITY passwordField.label "Lösenordsfältets namn">
+<!ENTITY button_more.label "Mer">
+<!ENTITY button_less.label "Mindre">
+<!ENTITY button_ok.label "OK">
+<!ENTITY button_cancel.label "Avbryt">

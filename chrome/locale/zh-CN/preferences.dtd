@@ -1,0 +1,4 @@
+<!ENTITY alwaysShowEditor.title "总是显示编辑器">
+<!ENTITY alwaysShowEditor.description "保存登录信息时">
+<!ENTITY showPassword.title "显示密码">
+<!ENTITY showPassword.description "打开编辑器时">

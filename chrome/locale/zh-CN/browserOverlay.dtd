@@ -1,0 +1,15 @@
+<!ENTITY savelogin.label "保存登录信息">
+<!ENTITY editlogin.label "编辑登录信息">
+<!ENTITY deletelogin.label "删除登录信息">
+<!ENTITY chooseLogin.title "选择登录账号">
+<!ENTITY logininfo.title "登录信息">
+<!ENTITY host.label "主机">
+<!ENTITY submitPrefix.label "提交前缀">
+<!ENTITY username.label "用户名">
+<!ENTITY password.label "密码">
+<!ENTITY usernameField.label "用户域名称">
+<!ENTITY passwordField.label "密码域名称">
+<!ENTITY button_more.label "更多">
+<!ENTITY button_less.label "收起">
+<!ENTITY button_ok.label "确认">
+<!ENTITY button_cancel.label "取消">

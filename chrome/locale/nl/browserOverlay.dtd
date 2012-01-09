@@ -1,0 +1,15 @@
+<!ENTITY savelogin.label "Aanmeldinformatie opslaan">
+<!ENTITY editlogin.label "Aanmeldinformatie bewerken">
+<!ENTITY deletelogin.label "Aanmeldinformatie verwijderen">
+<!ENTITY chooseLogin.title "Kies aanmelding">
+<!ENTITY logininfo.title "Aanmeldinformatie">
+<!ENTITY host.label "Host">
+<!ENTITY submitPrefix.label "Prefix indienen">
+<!ENTITY username.label "Gebruikersnaam">
+<!ENTITY password.label "Wachtwoord">
+<!ENTITY usernameField.label "Gebruikersnaamveldnaam">
+<!ENTITY passwordField.label "Wachtwoordveldnaam">
+<!ENTITY button_more.label "Meer">
+<!ENTITY button_less.label "Minder">
+<!ENTITY button_ok.label "OK">
+<!ENTITY button_cancel.label "Annuleren">
