@@ -86,7 +86,8 @@ var MobileSavedPasswordEditor = {
   showAlert: function (aTitle, aText) {
     var toaster = Cc["@mozilla.org/toaster-alerts-service;1"].
                   getService(Ci.nsIAlertsService);
-    toaster.showAlertNotification(null, aTitle, aText);
+    toaster.showAlertNotification(
+      "chrome://mobilesavedpasswordeditor/skin/key32.png", aTitle, aText);
   },
 
   saveLogin: function () {

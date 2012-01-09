@@ -1,14 +1,18 @@
 <!ENTITY savelogin.label "Save login info">
 <!ENTITY editlogin.label "Edit login info">
 <!ENTITY deletelogin.label "Delete login info">
+<!-- Title for multi-login popup, for when multiple logins are saved for a form -->
 <!ENTITY chooseLogin.title "Choose login">
 <!ENTITY logininfo.title "Login info">
+<!-- Part of the URL of the page on which a form resides -->
 <!ENTITY host.label "Host">
+<!-- Part of the URL to which  a form is submitted -->
 <!ENTITY submitPrefix.label "Submit prefix">
 <!ENTITY username.label "Username">
 <!ENTITY password.label "Password">
 <!ENTITY usernameField.label "Username field name">
 <!ENTITY passwordField.label "Password field name">
+<!-- More/Less button shows/hides extra parts of a dialog -->
 <!ENTITY button_more.label "More">
 <!ENTITY button_less.label "Less">
 <!ENTITY button_ok.label "OK">
